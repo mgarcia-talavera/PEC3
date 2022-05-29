@@ -42,6 +42,7 @@ module.exports = {
       'res': '21px',
       'gran': '24px',
       'res-m': '30px',
+      'max': '39px',
     },
 
     extend: {
