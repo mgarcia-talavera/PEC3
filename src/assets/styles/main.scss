@@ -1,20 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+
+    .change-cyan {
+        @apply bg-white p-2 hover:bg-cyan-acer;
+      }
+    
+    .change-orange {
+        @apply bg-white p-2 hover:bg-orange;
+    }
+}
+
+
 /**
  * Use this file to import partials.
  * Do not include SCSS code in this file.
- */
+ */ 
 
 /**
  * Import variables
  */
 
-@import "variables";
-
 /**
  * Import npm dependencies
+ */
+ 
+@import "bootstrap/scss/bootstrap";
+
+  
+/**
  * see: https://v2.parceljs.org/features/module-resolution/
  * see commented examples below
- */
-
+ 
+@import "npm:@fortawesome/fontawesome-free/css/all.css";
+*/
 // @import "some-node-module";
 // @import "@some-company/some-node-module";
 
@@ -23,8 +44,10 @@
  * It's a best practice to use a different partial for each page
  */
 
-@import "layouts/home";
-
 /**
  * Do NOT include anything else in this file!
  */
+
+
+
+

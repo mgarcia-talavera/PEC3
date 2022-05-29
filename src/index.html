@@ -1,27 +1,99 @@
 <!DOCTYPE html>
-
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="./assets/styles/main.scss"><!-- do not remove this line! -->
-    <title>UOC Boilerplate</title>
-  </head>
-  <body>
-    <div class="uoc-container">
-      <picture>
-        <source srcset="./assets/images/logo.png?as=webp&width=350" type="image/webp" />
-        <img src="./assets/images/logo.png?width=350" alt="Universitat Oberta de Catalunya" class="uoc-logo" />
-      </picture>
-      <h1 class="uoc-title">Hello, UOC!</h1>
-      <p>
-        This is a starter template for the Advanced HTML and CSS Tools courses
-        from the Master's Program in Multimedia Applications and the Master's
-        Program in Web App and Website Development at the Universitat Oberta de
-        Catalunya.
-      </p>
-    </div>
-    <include src="./views/footer.html"></include>
-    <script type="module" src="./assets/scripts/main.js"></script><!-- do not remove this line! -->
-  </body>
+    <title>Nota de Premsa</title>
+</head>
+<body class="box-border bg-gray serif p-7 text-base h-screen m-0 lg:text-res">
+    <img src="assets/images/logo.png" class="w-1/5 h-1/5 ml-1 mqMinWidth:w-1/5 mqMinWidth:h-1/5 Media:w-1/5 Media:h-1/5 Max:w-1/5 Max:h-1/5">
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-orange">
+            <div class="container-fluid">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav pl-11 mqMinWidth:mr-11 mqMinWidth:text-basic">
+                  <li class="nav-item inline mr-10 list-none Media:text-basic mqMinWidth:text-basic">
+                    <a class="nav-link active" aria-current="page" href="index.html">Portada</a>
+                  </li>
+                  <li class="nav-item inline mr-10 list-none Media:text-basic mqMinWidth:text-basic">
+                    <a class="nav-link active" href="grup-musical.html">Els Grups Musicals</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+      </header>
+      <main>
+        <article class="p-8 text-basic text-black text-justify items-center mqMinWidth:min-w-full mqMinWidth:p-0">
+            <h1 class="text-center pb-9 mqMinWidth:res-m">Nota de Premsa</h1>
+    
+            <blockquote class="p-2">Autor: Miquel Garcia-Talavera Roig - 02/05/2022</blockquote>
+        
+            <p class="text-gran leading-extra">Del 10 a 23 de setembre del 2022 a Vallirana se celebrarà el Festival de Música de Vallirana per primera vegada a la seva història. El concert tindrà lloc en diverses 
+            localitzacions de la localitat on es disposarà d'aforament limitat i servei de bar. </p> 
+            
+            <dl>
+                <dt>Els Intolerants</dt>
+                <dd>
+                    <p class="text-mitja">El 10 comença el festival de Música amb el concert del grup local Els Intolerants, un grup de música que va néixer el 2019. El grup està format per 4 nois, el bateria, 
+                        un violinista, un baixista i el cantant. Ells mateixos es declaren com <cite class="text-brown">un grup intransigent d’estils molt variats que va del punk fins al folk</cite>, on en destaca la virtuositat 
+                        del violinista, fins a la balada rockera. Els components del grup són molt joves, entre 17 i 22 anys, però amb molta energia i una gran qualitat musical. Els Intolerants 
+                        actuaran el divendres dia 10 de setembre a les 9 de la nit al parc de les Bassioles. Recordem que les entrades es posaran a la venda pròximament. Esteu atents a les xarxes 
+                        socials de L’Ajuntament de Vallirana i a les del Casal Joves de Vallirana. </p>   
+                </dd>
+
+                <dt>La Companyia del Cel</dt>
+                <dd>
+                    <p class="text-mitja">El dia  12 de setembre, és el torn del grup musical La Companyia del Cel. Grup de música pop, creat el 2017 al municipi de Torelló. Grup compost per un trio format per dues 
+                        cantants i el guitarrista, es defineixen com <cite class="text-brown">un grup de música tradicional, que els agrada veure la gent ballar  fins que acabant esgotats</cite>. El seu repertori musical, va des 
+                        dels clàssics de tota la vida fins a temes propis d’estil més modern pel públic més jove. La Companyia del Cel, actuarà a la Rambla de la Sobirania les 8 de la tarda. 
+                        L’aforament només es limitarà fins al permès en el mateix espai de la Rambla. Hi haurà servei de bar amb begudes i entrepans. Recordem que les entrades es posaran a la venda 
+                        pròximament. Esteu atents a les xarxes socials de la L’Ajuntament de Vallirana i a les del Casal Joves de Vallirana.</p>   
+                </dd>
+                <dt>Buhos</dt>
+                <dd>
+                    <p class="text-mitja">El dia 20 a les 9 de la nit, tindrà lloc al Parc Central, el concert del grup Català Buhos. Aquest grup es va fundar el 2005 a Calafell,  es va fer famós en la seva 
+                        primera etapa, per crear cançons sobre el F.C. Barcelona, per cadenes de televisió i ràdio com Ona FM o TV3 amb l’APM. El grup està format per 7 persones, entre elles el 
+                        cantant Guillem Solé. En la seva segona etapa que va des del 2014 fins a l’actualitat. El grup ja té en el seu historial 10 dics amb grans èxits com Volcans o la Gran Vida. 
+                        Els seus estils van de des del rock fins al reggae, passant pel pop o l’ska. Prevenint el nombre elevat d’assistència, el concert tindrà lloc a la pista del 
+                        Parc Central sense límit d’aforament. També tindrà servei de bar i serveis públics repetits per la zona. Recordem que les entrades es posaran a la venda pròximament. 
+                        Esteu atents a les xarxes socials de la L’Ajuntament de Vallirana i a les del Casal Joves de Vallirana.</p> 
+                        <figure>
+                            <img  src="assets/images/buhos2.webp" alt="Grup de música Buhos" class="w-16 md:w-32 lg:w-48 m-auto block">
+                            <figcaption class="italic text-center">Bùhos en Concert - Regió7</figcaption>
+                        </figure> 
+                        
+                </dd>
+                <dt>El Pot Petit i els Soprano</dt>
+                <dd>
+                    <p class="text-mitja">Finalment, el dia 23 tindrà lloc el final del Festival de Música de Vallirana, amb dos concerts,  de nou al Parc Central. A les 7 de la tarda i pels més petits tindrem a 
+                        l’actuació del grup el Pot Petit, grup format per nou músics que tenen ja una gran experiència en fer ballar de valent els més petits de casa. Un cop acabada l’actuació 
+                        del Pot Petit, començarà el concert que tancarà aquesta  primera edició del Festival de Música de Vallirana, a càrrec del grup musical local, Els Soprano. Un grup format per 
+                        tres cantants, que ens oferiran el seu repertori de cançons d’Òpera Clàssica, per tots aquells als qui li agradi la lírica. Recordem que les entrades es posaran a la venda 
+                        pròximament. Esteu atents a les xarxes socials de la l’Ajuntament de Vallirana i a les del Casal Joves de Vallirana.</p>
+                </dd>
+            </dl>       <figure>
+                             <img src="assets/images/el-pot-petit.webp" alt="Grup de música El Pot Petit" class="w-16 md:w-32 lg:w-48 m-auto block">
+                             <figcaption class="italic text-center">El Pot Petit - Diari de Terrassa</figcaption>  
+                        </figure>  
+        <p>Horari i localitzacions:</p>
+            <ul class="p-1">
+                <li class="change-cyan">Els Intolerants el dia 10 de setembre a les 9 de la nit al Parc de les Bassioles.</li>
+                <li class="change-orange">La Companyia del Cel al 12 de setembre a les 8 de la tarda a la rambla de la Sobirania.</li>
+                <li class="change-cyan">Buhos el 20 de setembre a les 9 de la nit a la pista del Parc Central.</li>
+                <li class="change-orange">El Pot Petit el dia 23 de setembre a les 7 de la tarda al Parc Central.</li>
+                <li class="change-cyan">Els Soprano el dia 23 de setembre a l'acabament del concert el Pot Petit al Parc Central.</li>
+            </ul> 
+        
+       <em class="text-black">Les localitzacions estan subjectes a canvis. Recordem que les entrades es posaran a la venda pròximament. Esteu atents a les xarxes socials de la L’Ajuntament de Vallirana i a les del Casal Joves de Vallirana.</em>
+        </article>
+      </main>
+   <include src="./views/footer.html"></include> 
+</body>
 </html>
+
